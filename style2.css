@@ -1,0 +1,29 @@
+body{
+	margin: 0px;
+	background-color:  grey;
+}
+h1{	
+	margin: 0px 300px 1px 0px;
+	border-bottom:3px dashed black ;
+	border-right:  3px solid black;
+	text-align: center;
+
+}
+img{
+	width: 350px;
+	height: 220px;
+	margin: 10px;
+	transition-duration: 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+	margin-bottom: 10px;
+	box-shadow: 5px 3px 3px rgba(0,0,255,0.2);
+}
+#container-box{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
